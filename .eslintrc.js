@@ -19,7 +19,9 @@ module.exports = {
   ],
   rules: {
     "quotes": "off",
-    // 'jsx-quotes': [2, 'prefer-single'],
+    "avoidEscape": true,
+    "allowTemplateLiterals": true,
+    'jsx-quotes': [2, 'prefer-single','prefer-double'],
     'react/no-unescaped-entities': 0,
     'eslintreact/no-danger': 0,
     'react/jsx-max-props-per-line': 0,
